@@ -1,0 +1,313 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 2px 20px gray;
+    background-color: white;
+}
+
+.navbar .logo {
+    margin-left: 60px;
+}
+
+.navbar .elements {
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 20px;
+
+    .li a{
+        cursor: pointer;
+        color: rgb(74, 72, 72);
+        text-decoration: none;
+    }
+}
+
+.navbar .elements .li:hover {
+    border-bottom: 3px solid orange;
+    color: black;
+
+}
+
+.enquiry button {
+    border-radius: 40px;
+    padding: 8px 20px;
+    color: white;
+    background-color: rgb(2, 45, 64);
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 100px;
+    text-transform: capitalize;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+}
+
+.enquiry button:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgb(2, 45, 64);
+
+
+}
+
+.what_we_offer{
+    /* position: absolute;
+    top: 2510px;
+    width: 100%; */
+    background-color: aliceblue;
+    /* background-image: url("https://dheecodinglab.com/wp-content/uploads/2024/09/floral_2.png");
+    background-position: bottom center;
+    background-repeat: no-repeat; */
+    /* opacity: 0.05; 
+    top:2515px;
+    background: linear-gradient(to buttom, white, rgb(14, 52, 190)); */
+.offer{
+    margin-left: 650px;
+    
+   
+    h2{
+        color:rgb(185, 118, 78) ;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    h1{
+        padding: 40px 0px 0px 0px ;
+        margin-bottom: 90px;
+        font-size: 50px;
+        font-weight: 600;
+        margin-left: -90px;
+        span{
+            color:rgb(185, 118, 78) ;
+            
+        }
+    }
+}
+
+.demand{
+margin-left: 540px;
+margin-top: 25px; 
+hr{
+    margin-left: 160px;
+            width: 50px;
+           border-color:rgb(255, 77, 0) ;
+           border-width: 1px;
+           margin-top: 30px;
+} 
+}
+}
+.cources_home{
+
+margin-top: 50px;
+margin-left: 100px;
+margin-bottom: 30px;
+display: flex;
+gap: 35px;
+.java{
+    
+    border-radius: 7px;
+    border: 1px solid rgb(82, 81, 81);
+    background-color: rgb(82, 81, 81);
+    width: 390px;
+    height: 400px;
+    color: white;
+    h1{
+        font-weight: 500;
+        margin-left: 50px;
+
+    }
+    p{
+        margin-left: 50px;
+        padding: 0px 70px 0px 0px;
+    }
+    .pad{
+        
+        hr{
+            margin-left: 50px;
+            width: 50px;
+           border-color:rgb(255, 77, 0) ;
+           border-width: 2px;
+           margin-bottom: 40px;
+           margin-top: 150px;
+        }
+    }
+}
+
+.python{
+    
+    border-radius: 7px;
+    border: 1px solid rgb(82, 81, 81);
+    background-color: rgb(82, 81, 81);
+    width: 390px;
+    height: 400px;
+    color: white;
+    h1{
+        font-weight: 500;
+        margin-left: 50px;
+
+    }
+    p{
+        margin-left: 50px;
+        padding: 0px 70px 0px 0px;
+    }
+    .padd{
+        
+        hr{
+            margin-left: 50px;
+            width: 50px;
+           border-color:rgb(255, 77, 0) ;
+           border-width: 2px;
+           margin-bottom: 40px;
+           margin-top: 150px;
+        }
+    }
+}
+
+
+.mern{
+    
+    border-radius: 7px;
+    border: 1px solid rgb(82, 81, 81);
+    background-color: rgb(82, 81, 81);
+    width: 390px;
+    height: 400px;
+    color: white;
+    h1{
+        font-weight: 500;
+        margin-left: 50px;
+
+    }
+    p{
+        margin-left: 50px;
+        padding: 0px 70px 0px 0px;
+    }
+    .padding{
+        
+        hr{
+            margin-left: 50px;
+            width: 50px;
+           border-color:rgb(255, 77, 0) ;
+           border-width: 2px;
+           margin-bottom: 40px;
+           margin-top: 150px;
+        }
+    }
+}
+}
+.conclusion{
+display: flex;
+gap: 80px;
+justify-content: space-around;
+margin-top: 60px;
+height: 430px;
+background-color: rgb(2, 45, 64);
+i{
+    color:rgb(185, 118, 78) ;
+}
+.about_us{
+    margin-top: 65px;
+    width: 330px;
+    margin-left: 80px;
+    color: white;
+    h2{
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    p{
+        font-size: 15px;
+    }
+    hr{
+        border-width: 1.5px;
+        width: 65px;
+        border-color: white;
+        margin-bottom: 40px;
+    }
+}
+.location{
+    margin-top: 65px;
+    width: 240px;
+    color: white;
+    i{
+        margin-right: 10px;
+    }
+    h2{
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    hr{
+        border-width: 1.5px;
+        width: 65px;
+        border-color: white;
+        margin-bottom: 40px;
+    }
+}
+.office_hours{
+    margin-top: 65px;
+    color: white;
+    h2{
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    p{
+        font-size: 15px;
+        i{
+            margin-right: 10px;
+        }
+    }
+    hr{
+        border-width: 1.5px;
+        width: 65px;
+        border-color: white;
+        margin-bottom: 40px; 
+
+    }
+
+}
+.map{
+    margin-top: 65px;
+    color: white;
+    margin-right: 80px;
+    h2{
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    hr{
+        border-width: 1.5px;
+        width: 65px;
+        border-color: white;
+        margin-bottom: 40px; 
+    }
+}
+}
+.image2{
+position: absolute;
+top: 830px;
+    right: 650px;
+img{
+    width: 130px;
+    height: 130px;
+    
+}
+}
+.copy_right{
+background-color: rgb(40, 40, 40);
+p{
+    padding: 20px 0px;
+    color: white;
+    margin-left: 80px;
+    font-size: 15px;
+}
+}
